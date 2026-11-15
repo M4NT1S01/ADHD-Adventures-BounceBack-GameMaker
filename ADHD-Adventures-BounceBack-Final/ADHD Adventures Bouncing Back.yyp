@@ -1,0 +1,209 @@
+{
+  "resourceType": "GMProject",
+  "resourceVersion": "1.6",
+  "name": "ADHD Adventures Bouncing Back",
+  "resources": [
+    {
+      "id": {
+        "name": "fnt_default",
+        "path": "fonts/fnt_default/fnt_default.yy"
+      },
+      "order": 0
+    },
+    {
+      "id": {
+        "name": "spr_bullet",
+        "path": "sprites/spr_bullet/spr_bullet.yy"
+      },
+      "order": 0
+    },
+    {
+      "id": {
+        "name": "spr_char_1_idle_right",
+        "path": "sprites/spr_char_1_idle_right/spr_char_1_idle_right.yy"
+      },
+      "order": 0
+    },
+    {
+      "id": {
+        "name": "spr_fruit_normal",
+        "path": "sprites/spr_fruit_normal/spr_fruit_normal.yy"
+      },
+      "order": 0
+    },
+    {
+      "id": {
+        "name": "spr_player_mask",
+        "path": "sprites/spr_player_mask/spr_player_mask.yy"
+      },
+      "order": 0
+    },
+    {
+      "id": {
+        "path": "objects/obj_bounce_controller/obj_bounce_controller.yy",
+        "name": "obj_bounce_controller"
+      },
+      "order": 0
+    },
+    {
+      "id": {
+        "path": "objects/obj_bounce_hazard/obj_bounce_hazard.yy",
+        "name": "obj_bounce_hazard"
+      },
+      "order": 0
+    },
+    {
+      "id": {
+        "path": "objects/obj_bounce_pickup/obj_bounce_pickup.yy",
+        "name": "obj_bounce_pickup"
+      },
+      "order": 0
+    },
+    {
+      "id": {
+        "path": "objects/obj_bounce_player/obj_bounce_player.yy",
+        "name": "obj_bounce_player"
+      },
+      "order": 0
+    },
+    {
+      "id": {
+        "path": "rooms/room_bounce_back/room_bounce_back.yy",
+        "name": "room_bounce_back"
+      },
+      "order": 0
+    }
+  ],
+  "Options": [
+    {
+      "name": "Android",
+      "path": "options/android/options_android.yy"
+    },
+    {
+      "name": "HTML5",
+      "path": "options/html5/options_html5.yy"
+    },
+    {
+      "name": "iOS",
+      "path": "options/ios/options_ios.yy"
+    },
+    {
+      "name": "Linux",
+      "path": "options/linux/options_linux.yy"
+    },
+    {
+      "name": "macOS",
+      "path": "options/mac/options_mac.yy"
+    },
+    {
+      "name": "tvOS",
+      "path": "options/tvos/options_tvos.yy"
+    },
+    {
+      "name": "Windows",
+      "path": "options/windows/options_windows.yy"
+    },
+    {
+      "name": "Opera GX",
+      "path": "options/operagx/options_operagx.yy"
+    },
+    {
+      "name": "Main",
+      "path": "options/main/options_main.yy"
+    }
+  ],
+  "defaultScriptType": 1,
+  "isEcma": false,
+  "configs": {
+    "name": "Default",
+    "children": []
+  },
+  "RoomOrderNodes": [
+    {
+      "roomId": {
+        "name": "room_bounce_back",
+        "path": "rooms/room_bounce_back/room_bounce_back.yy"
+      }
+    }
+  ],
+  "Folders": [
+    {
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "Objects",
+      "folderPath": "folders/Objects.yy",
+      "order": 0
+    },
+    {
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "Rooms",
+      "folderPath": "folders/Rooms.yy",
+      "order": 0
+    },
+    {
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "space_rocks",
+      "folderPath": "folders/space_rocks.yy",
+      "order": 0
+    },
+    {
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "Sprites",
+      "folderPath": "folders/Sprites.yy",
+      "order": 0
+    },
+    {
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "Characters",
+      "folderPath": "folders/Sprites/Characters.yy",
+      "order": 0
+    },
+    {
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "other sprites",
+      "folderPath": "folders/Sprites/other sprites.yy",
+      "order": 0
+    },
+    {
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "World",
+      "folderPath": "folders/Sprites/World.yy",
+      "order": 0
+    }
+  ],
+  "AudioGroups": [
+    {
+      "resourceType": "GMAudioGroup",
+      "resourceVersion": "1.3",
+      "name": "audiogroup_default",
+      "targets": -1
+    }
+  ],
+  "TextureGroups": [
+    {
+      "resourceType": "GMTextureGroup",
+      "resourceVersion": "1.3",
+      "name": "Default",
+      "isScaled": true,
+      "compressFormat": "bz2",
+      "loadType": "default",
+      "directory": "",
+      "autocrop": true,
+      "border": 2,
+      "mipsToGenerate": 0,
+      "groupParent": null,
+      "targets": -1
+    }
+  ],
+  "IncludedFiles": [],
+  "MetaData": {
+    "IDEVersion": "2022.0.3.85"
+  },
+  "option_gameguid": "a9b53102-b810-453a-b130-7ce7fbf5bd07"
+}
